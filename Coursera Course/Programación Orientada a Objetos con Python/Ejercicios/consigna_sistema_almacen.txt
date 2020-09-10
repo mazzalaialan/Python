@@ -1,0 +1,40 @@
+Bienvenido a la evaluación entre pares: Sistema para almacén (caja registradora)
+
+Para este proyecto, deberás programar una caja registradora para una almacén. El sistema debe poder escanear un producto (el cajero puede tipear el código del producto), y agregarlo a la lista de productos comprados para ese cliente. Además debe mostrar el subtotal. El cajero cuando lo desee puede finalizar la compra y el sistema deberá aplicar los descuentos correspondientes a los productos. Luego, el cajero indica con cuánto paga el cliente y el sistema debe mostrar el cambio que debe devolver al cliente.
+
+Se pide hacer los modelos y las pruebas de las funcionalidades. No es necesario hacer una interfaz gráfica (o de consola), sino que puede estar todo el funcionamiento validado con las pruebas unitarias.
+
+
+
+Verificar si en el modelo que hizo tu compañero, existe una clase que representa la caja registradora
+
+Verificar si en el modelo de tu compañero, la clase que representa la caja registradora tiene un método para agregar un producto escaneado a la compra
+
+Verificar si en el modelo de tu compañero,  la clase que representa la caja registradora tiene un método para calcular el subtotal de la compra.
+
+Verificar si en el modelo de tu compañero, la clase que representa la caja registradora tiene un método para finalizar la compra
+
+Verificar si en el modelo de tu compañero, la clase que representa la caja registradora tiene un método para calcular el total de la compra.
+
+Verificar si en el modelo de tu compañero, la clase que representa la caja registradora tiene un método para indicar con cuánto paga el cliente e indica cuánto debe devolverle.
+
+Verificar si en el modelo de tu compañero, existe una clase que represente un producto.
+
+Verificar si en el modelo de tu compañero, existe una clase que represente una lista de precios
+
+Verificar si en el modelo de tu compañero, la clase que representa la lista de precios tiene un método para obtener el precio de un producto sin descuento.
+
+Verificar si en el modelo de tu compañero, la clase que representa la lista de precios tiene un método para obtener el precio de un producto con descuento.
+
+Verificar si en el modelo de tu compañero, existe una clase que represente la compra.
+
+Verificar si en el modelo de tu compañero, hay casos de prueba sobre el método que agrega un producto a la compra.
+
+Verificar si en el modelo de tu compañero, hay casos de prueba sobre el método  que calcula el subtotal de la compra.
+
+Verificar si en el modelo de tu compañero, hay casos de prueba sobre el método que finaliza la compra.
+
+Verificar si en el modelo de tu compañero, hay casos de prueba sobre el método  que calcula el total de la compra (con los descuentos aplicados)
+
+Verificar si en el modelo de tu compañero, hay casos de prueba sobre el método que calcula el vuelto que se le debe dar al cliente.
+

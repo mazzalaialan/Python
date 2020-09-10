@@ -1,0 +1,30 @@
+https://curator.jsc.nasa.gov/lunar/samplecatalog/index.cfm
+
+https://hackernoon.com/top-8-python-libraries-for-machine-learning-and-artificial-intelligence-y08id3031
+
+
+
+
+
+bajar https://www.anaconda.com/products/individual/get-started
+
+abrir anaconda prompt
+
+conda create -n space python=3.7 pandas jupyter seaborn scikit-learn keras pytorch pillow
+
+y
+
+conda activate space
+
+conda install -c pytorch torchvision
+
+crear carpeta ClassifyingSpaceRocks
+
+crear archivo ClassifySpaceRockProgram.ipynb
+
+cambiar entorno de visual studio code a Anaconda environment
+
+
+
+
+bajar https://nasadata.blob.core.windows.net/nasarocks/Data.zip
