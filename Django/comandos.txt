@@ -1,3 +1,6 @@
+https://docs.djangoproject.com/en/3.0/topics/install/#installing-official-release
+
+
 django-admin startproject mysite
 
 python manage.py runserver
@@ -9,3 +12,9 @@ python manage.py showmigrations
 python manage.py migrate
 
 python manage.py createsuperuser
+
+
+
+
+
+

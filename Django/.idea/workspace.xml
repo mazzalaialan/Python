@@ -20,32 +20,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="195c625e-57f8-4cd6-8bf9-bb3b82b60745" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Django3 Fundamentals.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/comandos.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/employees/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/employees/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/employees/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/employees/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/employees/migrations/0002_auto_20200918_0049.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/employees/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/employees/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/employees/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/employees/templates/employee_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/employees/templates/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/employees/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/employees/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/.idea/Django3 Fundamentals.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Django3 Fundamentals/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/comandos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/migrations/0002_auto_20200918_0049.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/templates/employee_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/mysite/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/mysite/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/mysite/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/mysite/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/mysite/wsgi.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Proy1_Flask/.vscode/settings.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Proy1_Flask/App.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Proy1_Flask/static/css/main.css" beforeDir="false" />
@@ -80,7 +80,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Django" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysite" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -141,10 +141,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600470684499" />
-    <state x="973" y="286" key="FileChooserDialogImpl" timestamp="1600531256664">
+    <state x="973" y="286" key="FileChooserDialogImpl" timestamp="1600531364691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="973" y="286" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600531256664" />
+    <state x="973" y="286" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600531364691" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600401263248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
