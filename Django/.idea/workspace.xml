@@ -20,39 +20,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="195c625e-57f8-4cd6-8bf9-bb3b82b60745" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/.idea/Django3 Fundamentals.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Django3 Fundamentals/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/comandos.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/migrations/0002_auto_20200918_0049.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/templates/employee_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/templates/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/employees/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/mysite/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/mysite/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/mysite/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/mysite/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Django3 Fundamentals/mysite/mysite/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proy1_Flask/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proy1_Flask/App.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proy1_Flask/static/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proy1_Flask/static/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proy1_Flask/templates/edit_contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proy1_Flask/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proy1_Flask/templates/layout.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter/counterapp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter/counterapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counter/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/.idea/todo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/templates/edittask.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/templates/homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/todo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/todo/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/todo/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/todo/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/todo/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/todoapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/todoapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/todoapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/todoapp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/todoapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/todoapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/todoapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/todoapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/todoapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chuck Course/bookdepositorydb.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chuck Course/bookdepositoryinfofromlink.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chuck Course/bookdepositoryinfotodb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comandos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/comandos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/counter/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter/counter/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/counter/counter/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter/counterapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/counter/counterapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter/counterapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/counter/counterapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/counter/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScheduleOpenZoomMeeting/zoom.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +86,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">

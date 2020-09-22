@@ -5,11 +5,12 @@ django-admin startproject mysite
 
 python manage.py runserver
 
-python manage.py startapp employees
+python manage.py startapp counterapp
 
-python manage.py makemigrations
-python manage.py showmigrations
-python manage.py migrate
+python manage.py makemigrations blog_new
+python manage.py showmigrations blog_new
+python manage.py migrate --fake blog_new
+python manage.py migrate blog_new
 
 python manage.py createsuperuser
 
