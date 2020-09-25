@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Delivery!{% endblock %}
+{% block content %}
+
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand">Login</a>
+</nav>
+
+<div class="container-fluid" style="position: relative; height 900px; background-size: cover; background-image: url({% static "img/pizza.jpg" %});">
+    <div style="padding: 20px; width: 300px; background-color: #fe6e00; display: block; margin: auto; margin-top: 300px;">
+        <h1 style="color: white; text-align: center">User Login</h1>
+        <form method="post" action="/userauthenticate/">
+            {% csrf_token %}
+            <input type="text" style="margin-bottom: 5px" class="form-control" placeholder="username" name="username">
+            <input type="password" style="margin-bottom: 5px" class="form-control" placeholder="password" name="password">
+            <input type="submit" style="display: block; margin: auto; margin-bottom: 5px" value="Login" class="btn btn-success" name="">
+        </form>
+    {% for message in messages %}
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <strong>{{message}}</strong>
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    {% endfor %}
+    </div>
+</div>
+{% endblock %}

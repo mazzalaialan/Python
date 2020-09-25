@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Delivery! Manage Orders{% endblock %}
+{% block content %}
+
+<nav class="navbar navbar-light bg-light">
+    <a href="/admin/homepage/" class="navbar-brand">Welcome Admin!</a>
+    <a href="/manageorders/" class="nav-item" style="color: black; text-decoration: none;">Manage Orders</a>
+    <a class="btn btn-danger" href="/adminlogout/">logout</a>
+</nav>
+
+<h1 style="text-align: center">Manage Orders</h1>
+{% for order in orders %}
+<div class="alert alert-warning" style="margin: 40px" role="alert">
+    <p style="text-align: center;">{{order.username}}</p>
+    <p style="text-align: center;">{{order.phoneno}}</p>
+    <p style="text-align: center;">{{order.address}}</p>
+    <p style="text-align: center;">{{order.ordereditems}}</p>
+    <p style="text-align: center;">Order Status: {{order.status}}</p>
+    <div class="container" style="width: 200px; margin: auto;">
+        <a href="/acceptorder/{{order.id}}/" style="display: inline;" class="btn btn-success">Accept</a>
+        <a href="/declineorder/{{order.id}}/" style="display: inline;" class="btn btn-danger">Decline</a>
+    </div>
+</div>
+{% endfor %}
+{% endblock %}

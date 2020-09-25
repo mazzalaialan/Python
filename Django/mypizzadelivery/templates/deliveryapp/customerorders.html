@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Delivery! Customer Orders{% endblock %}
+{% block content %}
+
+<nav class="navbar navbar-light bg-light">
+    <a href="/customer/welcome/" class="navbar-brand">Welcome {{username}}!</a>
+    <a href="/customerorders/" class="nav-item" style="color: black; text-decoration: none;">My Orders</a>
+    <a class="btn btn-danger" href="/userlogout/">logout</a>
+</nav>
+
+<h1 style="text-align: center">My Orders</h1>
+{% for order in orders %}
+<div class="alert alert-warning" style="margin: 40px" role="alert">
+    <p>{{order.username}}</p>
+    <p>{{order.phoneno}}</p>
+    <p>{{order.address}}</p>
+    <p>{{order.ordereditems}}</p>
+    <p>Order Status: {{order.status}}</p>
+</div>
+{% endfor %}
+{% endblock %}
