@@ -1,0 +1,30 @@
+python --version
+
+python -m venv venv
+cd venv
+cd Scripts
+activate
+deactivate
+
+cd ..
+python -m pip install --upgrade pip
+pip install django
+python -m django --version
+pip install djangorestframework
+pip install django-cors-headers
+pip install django-cors-middleware
+
+
+django-admin.py startproject worldCountries .
+
+python manage.py startapp countries
+
+pip install psycopg2
+
+python manage.py migrate
+python manage.py makemigrations countries
+python manage.py migrate countries
+
+python manage.py runserver
+
+python manage.py createsuperuser
