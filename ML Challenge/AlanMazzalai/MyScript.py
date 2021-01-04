@@ -4,6 +4,7 @@ import requests
 import json
 import csv
 import os
+import sys
 
 from pathlib import Path
 
@@ -51,10 +52,12 @@ def call_mlapi_to_dict(SearchCategory):
     except requests.exceptions.RequestException as err:
         print(err)
 
-def run_create_hyper_file_from_csv():
+def run_create_hyper_file_from_csv(Myfilename):
     print("Start run_create_hyper_file_from_csv.")
+    MyCSVfilename = ""
+    MyCSVfilename = Myfilename + ".csv"
 
-    path_to_database = Path("myhyperfile.hyper")
+    path_to_database = Path(Myfilename+".hyper")
 
     process_parameters = {
         "log_file_max_count": "2",
@@ -72,7 +75,7 @@ def run_create_hyper_file_from_csv():
 
             connection.catalog.create_table(table_definition=product_table)
 
-            path_to_csv = str(Path(__file__).parent / "mycsvfile.csv")
+            path_to_csv = str(Path(__file__).parent / str(MyCSVfilename) )
 
             print(path_to_csv)
 
@@ -102,10 +105,10 @@ def transform_listdict_to_filterlistdict(i,MyNewlistDict,Category):
 
 def main():
     """Params"""
-    filename = 'mycsvfile.csv'
-    category1 = 'chromecast'
-    category2 = 'fire stick'
-    category3 = 'google home mini'
+    Myfilename = sys.argv[1] #'MyFile'
+    category1 = sys.argv[2] #'chromecast'
+    category2 = sys.argv[3] #'fire stick'
+    category3 = sys.argv[4] #'google home mini'
 
     """Call ML Api to get inforation to dictionary"""
     MyListDict1 = call_mlapi_to_dict(category1)
@@ -135,7 +138,7 @@ def main():
 
     """Save to csv file previous run Hyper API"""
     try:
-        with open(filename, 'w', newline='', encoding='utf-8') as csvfile:
+        with open(Myfilename+'.csv', 'w', newline='', encoding='utf-8') as csvfile:
             csvwriter = csv.DictWriter(csvfile, delimiter=';',fieldnames=csv_columns) #i.keys()
             csvwriter.writeheader()
             for row in MylistDict:
@@ -146,7 +149,7 @@ def main():
 
     """Execute Hyper API"""
     try:
-        run_create_hyper_file_from_csv()
+        run_create_hyper_file_from_csv(Myfilename)
     except HyperException as err:
         print("Hyper({0})".format(err))
 
