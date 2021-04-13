@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19baa0fd-478f-49b1-9c29-a50eb9c9537b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Clase 2 Estructuras de Datos con Python/AreaCirculo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clase 2 Estructuras de Datos con Python/DosHorasMas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clase 2 Estructuras de Datos con Python/SumarExponenciales.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clase 2 Estructuras de Datos con Python/TamanioCadenayCantA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +73,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
