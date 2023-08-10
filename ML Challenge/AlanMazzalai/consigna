@@ -1,0 +1,18 @@
+Desafío:
+1) Desarrollar un script o una API que permita pasarle un término de búsqueda y construya un hyper de Tableau con al menos 150 items del servicio público de MELI. Debe enviarse el código y al correr el script o llamar a la API en localhost debe generar el hyper y dejarlo en un carpeta en el disco local. 
+
+El desafío es abierto y aunque no es requerido se evaluarán positivamente agregados como testing, POO, usabilidad de cara al cliente.
+
+Principales definiciones.
+
+Hyper: es una estructura de datos que usa tableau para generar dashboards. Acá se puede encontrar documentación sobre el módulo para crearlos: 
+
+ https://help.tableau.com/current/api/hyper_api/en-us/index.html 
+
+Tableau: Para poder probar el hyper es necesario tener una versión de tableau desktop instalado. Se puede descargar el trial que tienen una duración de 15 días:
+
+https://www.tableau.com/products/desktop/download 
+
+API Publica ejemplo:
+
+ https://api.mercadolibre.com/sites/MLA/search?q=chromecast&limit=50#json
